@@ -1,0 +1,127 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #e6e6e6;
+}
+#painel
+{
+	background-color: #f7b600;
+	border: 1px solid #f7b600;
+}
+#tec
+{
+	color: black;
+}
+#blog
+{
+	color: white;
+}
+div.opcoes_menu
+{
+	float: left;
+	margin: 20px 0 30px 10px;
+}
+.clear
+{
+	clear: both;
+}
+#opcoes
+{
+	width: fit-content;
+	margin: 10px auto;
+	font-size: 23px;
+}
+#logo
+{
+	width: fit-content;
+	margin: 20px auto;
+	font-size: 80px;
+}
+.opcoes_menu > a:link
+{
+	color: white;
+}
+.opcoes_menu > a:visited
+{
+	color: white;
+}
+.opcoes_menu > a:hover
+{
+	color: #f7b600;
+	background-color: white;
+}
+.opcoes_menu > a
+{
+	text-decoration: none;
+	padding: 10px;
+}
+#conteudo
+{
+	width: 1070px;
+	margin: 50px auto;
+}
+.imagem_conteudo
+{
+	margin-top: 20px;
+}
+.postagem
+{
+	width: 640px;
+	padding: 30px;
+	background-color: white;
+	float: left;
+}
+.caixa_lateral
+{
+	background-color: white;
+	float: left;
+	margin-left: 50px;
+	width: 300px;
+	padding: 10px;
+}
+#categorias
+{
+	margin-top: 20px;
+}
+.caixa_lateral > h2
+{
+	background-color: lightgray;
+	padding: 5px;
+}
+#postagem2
+{
+	margin-top: 40px;
+}
+.rodape
+{
+	text-align: center;
+	background-color: lightgray;
+	padding: 20px;
+	margin-top: 40px;
+}
+.caixa_lateral > p, .caixa_lateral > h2
+{
+	margin: 5px 0;
+}
+.postagem > h2
+{
+	color: #f7b600;
+}
+.ler_mais, #categorias > p
+{
+	color: #f7b600;
+}
+#categorias > p
+{
+	font-size: 20px;
+}
+.ler_mais:hover, #categorias > p:hover
+{
+	text-decoration: underline;
+}
